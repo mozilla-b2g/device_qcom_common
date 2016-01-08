@@ -717,7 +717,7 @@ PRODUCT_PACKAGE_OVERLAYS += device/qcom/common/product/overlay
 
 #skip boot jars check if QCPATH not available
 ifeq ($(strip $(QCPATH)),)
-SKIP_BOOT_JARS_CHECK := true
+#SKIP_BOOT_JARS_CHECK := true
 endif
 
 # For PRODUCT_COPY_FILES, the first instance takes precedence.
